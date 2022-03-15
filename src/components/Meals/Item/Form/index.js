@@ -2,13 +2,13 @@ import * as S from "./styles";
 
 import Input from "../../../UI/Input";
 
-const Form = () => {
+const Form = (props) => {
   return (
     <S.Form>
       <Input
         label="Amount"
         input={{
-          id: "amount",
+          id: `amount_${props.id}`,
           type: "number",
           min: "1",
           max: "5",
