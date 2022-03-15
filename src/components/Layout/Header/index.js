@@ -1,10 +1,13 @@
 import * as S from "./styles";
 
+import HeaderCartButton from "../HeaderCartButton";
+
+
 const Header = (props) => {
   return (
     <S.Header>
-        <h1>MyFood</h1>
-        <button>Cart</button>
+      <h1>MyFood</h1>
+      <HeaderCartButton></HeaderCartButton>
     </S.Header>
   );
 };
