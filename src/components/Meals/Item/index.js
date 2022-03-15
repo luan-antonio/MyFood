@@ -1,5 +1,7 @@
 import * as S from "./styles";
 
+import Form from "./Form";
+
 const Item = ({ meal }) => {
   const price = `$${meal.price.toFixed(2)}`;
 
@@ -10,7 +12,9 @@ const Item = ({ meal }) => {
         <div className="description">{meal.description}</div>
         <div className="price">{price}</div>
       </div>
-      <div></div>
+      <div>
+        <Form />
+      </div>
     </S.Item>
   );
 };
