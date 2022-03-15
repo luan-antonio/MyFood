@@ -1,13 +1,8 @@
 import styled from "styled-components";
 
 export const Cart = styled.div`
-  .cart-items {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    max-height: 20rem;
-    overflow: auto;
-  }
+  max-height: 20rem;
+  overflow: auto;
 
   .total {
     display: flex;
