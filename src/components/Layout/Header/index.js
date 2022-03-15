@@ -6,7 +6,7 @@ const Header = (props) => {
   return (
     <S.Header>
       <h1>MyFood</h1>
-      <HeaderCartButton />
+      <HeaderCartButton onClick={props.onShowCart}/>
     </S.Header>
   );
 };
