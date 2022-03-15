@@ -55,7 +55,7 @@ export const HeaderCartButton = styled.button`
     background-color: #92320c;
   }
 
-  .bump {
+  &.bump {
     animation: ${bump} 300ms ease-out;
   }
 `;
